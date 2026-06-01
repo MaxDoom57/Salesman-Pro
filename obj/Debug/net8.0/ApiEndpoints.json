@@ -1,0 +1,286 @@
+[
+  {
+    "ContainingType": "Bridge_App.Controllers.AccountBalanceDetailController",
+    "Method": "GetAccountBalanceDetails",
+    "RelativePath": "api/AccountBalanceDetail/Balance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressKey",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.AuthController",
+    "Method": "VerifySecretKey",
+    "RelativePath": "api/Auth/auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.CashCollectionController",
+    "Method": "AddCashCollection",
+    "RelativePath": "api/CashCollection/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newCashCollection",
+        "Type": "Bridge_App.DTOs.CollectionDTO\u002BAddCollectionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.InvoiceController",
+    "Method": "AddInvoice",
+    "RelativePath": "api/Invoice/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newInvoice",
+        "Type": "Bridge_App.DTOs.InvoiceDTO\u002BAddInvoiceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.InvoiceController",
+    "Method": "GetAllLocations",
+    "RelativePath": "api/Invoice/invoiceNo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.ItemsController",
+    "Method": "GetItemByKey",
+    "RelativePath": "api/Items/{itemKey}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemKey",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.ItemsController",
+    "Method": "UpdateItem",
+    "RelativePath": "api/Items/{itemKey}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemKey",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedItem",
+        "Type": "Bridge_App.DTOs.ItemsDTO\u002BUpdateItemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.ItemsController",
+    "Method": "DeleteItem",
+    "RelativePath": "api/Items/{itemKey}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemKey",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.ItemsController",
+    "Method": "AddItem",
+    "RelativePath": "api/Items/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newItem",
+        "Type": "Bridge_App.DTOs.ItemsDTO\u002BAddItemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.ItemsController",
+    "Method": "GetAllItems",
+    "RelativePath": "api/Items/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.OrdersController",
+    "Method": "GetOrderByKey",
+    "RelativePath": "api/Orders/{orderKey}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderKey",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.OrdersController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Orders/{orderKey}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderKey",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.OrdersController",
+    "Method": "AddOrder",
+    "RelativePath": "api/Orders/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Bridge_App.DTOs.OrdersDTO\u002BAddOrderWithLinesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.OrdersController",
+    "Method": "GetAllOrdersData",
+    "RelativePath": "api/Orders/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.StoresController",
+    "Method": "GetLocationByKey",
+    "RelativePath": "api/Stores/{addressKey}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressKey",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.StoresController",
+    "Method": "DeleteLocation",
+    "RelativePath": "api/Stores/{locationKey}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationKey",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.StoresController",
+    "Method": "UpdateLocation",
+    "RelativePath": "api/Stores/{storeKey}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeKey",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedStore",
+        "Type": "Bridge_App.DTOs.StoresDTO\u002BUpdateStoresDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.StoresController",
+    "Method": "AddLocation",
+    "RelativePath": "api/Stores/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newStore",
+        "Type": "Bridge_App.DTOs.StoresDTO\u002BAddStoresDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bridge_App.Controllers.StoresController",
+    "Method": "GetAllLocations",
+    "RelativePath": "api/Stores/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

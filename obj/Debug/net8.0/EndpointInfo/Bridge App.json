@@ -1,0 +1,1241 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Bridge App",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/AccountBalanceDetail/Balance": {
+      "get": {
+        "tags": [
+          "AccountBalanceDetail"
+        ],
+        "parameters": [
+          {
+            "name": "addressKey",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/auth": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CashCollection/add": {
+      "post": {
+        "tags": [
+          "CashCollection"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddCollectionDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddCollectionDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddCollectionDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Invoice/add": {
+      "post": {
+        "tags": [
+          "Invoice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddInvoiceDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddInvoiceDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddInvoiceDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Invoice/invoiceNo": {
+      "get": {
+        "tags": [
+          "Invoice"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Items/all": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Items/{itemKey}": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "parameters": [
+          {
+            "name": "itemKey",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Items"
+        ],
+        "parameters": [
+          {
+            "name": "itemKey",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateItemDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateItemDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateItemDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Items"
+        ],
+        "parameters": [
+          {
+            "name": "itemKey",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Items/add": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddItemDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddItemDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddItemDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Orders/all": {
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Orders/{orderKey}": {
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "parameters": [
+          {
+            "name": "orderKey",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Orders"
+        ],
+        "parameters": [
+          {
+            "name": "orderKey",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Orders/add": {
+      "post": {
+        "tags": [
+          "Orders"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddOrderWithLinesDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddOrderWithLinesDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddOrderWithLinesDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Stores/add": {
+      "post": {
+        "tags": [
+          "Stores"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddStoresDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddStoresDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddStoresDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Stores/{storeKey}": {
+      "put": {
+        "tags": [
+          "Stores"
+        ],
+        "parameters": [
+          {
+            "name": "storeKey",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateStoresDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateStoresDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateStoresDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Stores/{locationKey}": {
+      "delete": {
+        "tags": [
+          "Stores"
+        ],
+        "parameters": [
+          {
+            "name": "locationKey",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Stores/all": {
+      "get": {
+        "tags": [
+          "Stores"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Stores/{addressKey}": {
+      "get": {
+        "tags": [
+          "Stores"
+        ],
+        "parameters": [
+          {
+            "name": "addressKey",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddCollectionDTO": {
+        "required": [
+          "addressKey",
+          "amount",
+          "collectionId",
+          "collectionNumber",
+          "companyKey",
+          "fInAct",
+          "fPost",
+          "fSync",
+          "paymentMode",
+          "postUserKey",
+          "repKey",
+          "tranDateTime"
+        ],
+        "type": "object",
+        "properties": {
+          "companyKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "collectionNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "collectionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "tranDateTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "addressKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paymentMode": {
+            "type": "string",
+            "nullable": true
+          },
+          "chequeNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "repKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fInAct": {
+            "type": "boolean"
+          },
+          "fSync": {
+            "type": "boolean"
+          },
+          "fPost": {
+            "type": "boolean"
+          },
+          "postUserKey": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddInvoiceDTO": {
+        "required": [
+          "discountAmount",
+          "paymentTerm1",
+          "totalAmount"
+        ],
+        "type": "object",
+        "properties": {
+          "transactionDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "tranNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "returnAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "repAddressKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "docNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "yourReference": {
+            "type": "string",
+            "nullable": true
+          },
+          "addressKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "accountKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paymentTerm1": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentTerm2": {
+            "type": "string",
+            "nullable": true
+          },
+          "pmtTrm1Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "pmtTrm2Amount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "buKy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "locationKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discountPresentage": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "entDtm": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "itemTransactions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ItmTrnDTO"
+            },
+            "nullable": true
+          },
+          "totalAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "discountAmount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddItemDTO": {
+        "required": [
+          "companyKey",
+          "costPrice",
+          "enteredUser",
+          "itemCode",
+          "itemName",
+          "itemType",
+          "itemTypeKey",
+          "locationKey",
+          "salesPrice",
+          "unitKey"
+        ],
+        "type": "object",
+        "properties": {
+          "companyKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemTypeKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemType": {
+            "type": "string",
+            "nullable": true
+          },
+          "partNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "locationKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itmCat1Ky": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itmCat2Ky": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itmCat3Ky": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itmCat4Ky": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "unitKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discountPrecentage": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "costPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "salesPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "discountAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "quantity": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "enteredUser": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fInAct": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddOrderDTO": {
+        "required": [
+          "accountKey",
+          "addressKey",
+          "enteredUserKey",
+          "fApr",
+          "fInAct",
+          "orderDate",
+          "orderType",
+          "orderTypekey",
+          "repKey",
+          "salesPrice"
+        ],
+        "type": "object",
+        "properties": {
+          "orderTypekey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "orderNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fInAct": {
+            "type": "boolean"
+          },
+          "fApr": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "companyKey": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "orderType": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentTerm": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "orderDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "addressKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "accountKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "repKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "orderCategory1": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "discountPrecentage": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "salesPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "enteredUserKey": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddOrderLinesDTO": {
+        "required": [
+          "addressKey",
+          "enterDateTime",
+          "itemKey",
+          "lineNo",
+          "orderKey",
+          "orderQuantity"
+        ],
+        "type": "object",
+        "properties": {
+          "orderKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lineNo": {
+            "type": "number",
+            "format": "double"
+          },
+          "fApr": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "estimateQuantity": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "orderQuantity": {
+            "type": "number",
+            "format": "double"
+          },
+          "costPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "salesPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "discountPrecentage": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "discountAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "addressKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "enteredUserKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "enterDateTime": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddOrderWithLinesDTO": {
+        "required": [
+          "newOrder",
+          "orderLines"
+        ],
+        "type": "object",
+        "properties": {
+          "newOrder": {
+            "$ref": "#/components/schemas/AddOrderDTO"
+          },
+          "orderLines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AddOrderLinesDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddStoresDTO": {
+        "required": [
+          "addressCode",
+          "gps"
+        ],
+        "type": "object",
+        "properties": {
+          "companyKey": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "addressCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "fInAct": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "fApr": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "addressName": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "town": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "gps": {
+            "type": "string",
+            "nullable": true
+          },
+          "zipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber1": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber2": {
+            "type": "string",
+            "nullable": true
+          },
+          "eMail": {
+            "type": "string",
+            "nullable": true
+          },
+          "accountType": {
+            "type": "string",
+            "nullable": true
+          },
+          "accountTypeKey": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "creditLimit": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "bankAccountNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "bankAccountName": {
+            "type": "string",
+            "nullable": true
+          },
+          "enteredUserKey": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ItmTrnDTO": {
+        "type": "object",
+        "properties": {
+          "lineNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "locationKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantity": {
+            "type": "number",
+            "format": "double"
+          },
+          "discountAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "discountPresentage": {
+            "type": "number",
+            "format": "double"
+          },
+          "costPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "salesPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "tranPrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateItemDTO": {
+        "required": [
+          "enteredUser"
+        ],
+        "type": "object",
+        "properties": {
+          "companyKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemTypeKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemType": {
+            "type": "string",
+            "nullable": true
+          },
+          "partNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "locationKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itmCat1Ky": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itmCat2Ky": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itmCat3Ky": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itmCat4Ky": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "unitKey": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discountPrecentage": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "costPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "salesPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "discountAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "quantity": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "enteredUser": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateStoresDTO": {
+        "required": [
+          "addressCode"
+        ],
+        "type": "object",
+        "properties": {
+          "companyKey": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "addressCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "addressName": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "town": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "gps": {
+            "type": "string",
+            "nullable": true
+          },
+          "zipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber1": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber2": {
+            "type": "string",
+            "nullable": true
+          },
+          "eMail": {
+            "type": "string",
+            "nullable": true
+          },
+          "accountType": {
+            "type": "string",
+            "nullable": true
+          },
+          "accountTypeKey": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "creditLimit": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "bankAccountNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "bankAccountName": {
+            "type": "string",
+            "nullable": true
+          },
+          "enteredUserKey": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

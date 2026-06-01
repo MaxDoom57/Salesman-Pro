@@ -1,0 +1,89 @@
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\appsettings.Development.json
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\appsettings.json
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Bridge App.staticwebassets.endpoints.json
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Bridge App
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Bridge App.deps.json
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Bridge App.runtimeconfig.json
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Bridge App.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Bridge App.pdb
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\AutoMapper.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Azure.Core.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Azure.Identity.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Bcl.Cryptography.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Data.SqlClient.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.EntityFrameworkCore.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Extensions.Caching.Memory.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Extensions.DependencyInjection.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Extensions.Logging.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Extensions.Options.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Extensions.Primitives.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Identity.Client.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Abstractions.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Logging.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Protocols.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Tokens.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.OpenApi.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Microsoft.SqlServer.Server.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Swashbuckle.AspNetCore.Swagger.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.ClientModel.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.Configuration.ConfigurationManager.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.Diagnostics.DiagnosticSource.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.Diagnostics.EventLog.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.Formats.Asn1.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.IdentityModel.Tokens.Jwt.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.IO.Pipelines.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.Memory.Data.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.Security.Cryptography.Pkcs.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.Security.Cryptography.ProtectedData.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.Text.Encodings.Web.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\System.Text.Json.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\cs\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\de\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\es\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\fr\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\it\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\ja\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\ko\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\pl\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\ru\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\tr\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\bin\Release\net8.0\linux-x64\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.csproj.AssemblyReference.cache
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\rpswa.dswa.cache.json
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.GeneratedMSBuildEditorConfig.editorconfig
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.AssemblyInfoInputs.cache
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.AssemblyInfo.cs
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.csproj.CoreCompileInputs.cache
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.MvcApplicationPartsAssemblyInfo.cs
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.MvcApplicationPartsAssemblyInfo.cache
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\rjimswa.dswa.cache.json
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\rjsmrazor.dswa.cache.json
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\rjsmcshtml.dswa.cache.json
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\scopedcss\bundle\Bridge App.styles.css
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\staticwebassets.build.json
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\staticwebassets.build.json.cache
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\staticwebassets.development.json
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\staticwebassets.build.endpoints.json
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\staticwebassets.upToDateCheck.txt
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.csproj.Up2Date
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.dll
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\refint\Bridge App.dll
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.pdb
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\Bridge App.genruntimeconfig.cache
+E:\Interwave Solutions\Bridge App\obj\Release\net8.0\linux-x64\ref\Bridge App.dll

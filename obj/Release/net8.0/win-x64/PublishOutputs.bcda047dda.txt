@@ -1,0 +1,6 @@
+E:\Interwave Solutions\Bridge App\publish\win-x64\appsettings.Development.json
+E:\Interwave Solutions\Bridge App\publish\win-x64\appsettings.json
+E:\Interwave Solutions\Bridge App\publish\win-x64\Bridge App.pdb
+E:\Interwave Solutions\Bridge App\publish\win-x64\aspnetcorev2_inprocess.dll
+E:\Interwave Solutions\Bridge App\publish\win-x64\Microsoft.Data.SqlClient.SNI.dll
+E:\Interwave Solutions\Bridge App\publish\win-x64\Bridge App.exe

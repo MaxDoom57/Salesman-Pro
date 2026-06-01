@@ -1,0 +1,4 @@
+E:\Interwave Solutions\Bridge App\publish_v3\appsettings.Development.json
+E:\Interwave Solutions\Bridge App\publish_v3\appsettings.json
+E:\Interwave Solutions\Bridge App\publish_v3\Bridge App.pdb
+E:\Interwave Solutions\Bridge App\publish_v3\Bridge App.exe

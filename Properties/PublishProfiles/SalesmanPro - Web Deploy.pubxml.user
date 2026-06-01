@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2025-12-19T02:33:09.7057518Z||;True|2025-12-18T16:49:53.7007089+05:30||;True|2025-12-18T15:34:12.5072043+05:30||;True|2025-12-18T15:28:24.1016394+05:30||;True|2025-12-18T15:14:25.7160448+05:30||;True|2025-12-18T15:07:28.1915016+05:30||;True|2025-12-18T15:04:05.3772578+05:30||;True|2025-12-18T14:31:07.2610567+05:30||;True|2025-12-18T13:22:13.5277859+05:30||;True|2025-12-18T13:16:34.2831921+05:30||;True|2025-12-10T14:48:48.3802481+05:30||;True|2025-12-10T14:45:39.8291291+05:30||;True|2025-12-10T14:41:36.7064405+05:30||;True|2025-12-10T14:23:52.3317483+05:30||;True|2025-12-10T13:02:57.1905671+05:30||;False|2025-12-10T13:01:21.3103966+05:30||;False|2025-12-10T12:38:31.7530181+05:30||;False|2025-12-10T12:37:58.1737370+05:30||;True|2025-11-27T14:26:42.6705103+05:30||;True|2025-11-27T13:09:34.7174529+05:30||;True|2025-11-27T12:38:02.5556035+05:30||;True|2025-11-25T13:43:03.3107467+05:30||;True|2025-11-25T12:24:13.1248075+05:30||;True|2025-11-25T12:20:06.7939763+05:30||;True|2025-11-25T11:33:29.2400888+05:30||;True|2025-11-25T11:19:03.9324594+05:30||;True|2025-11-18T15:01:09.1763230+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

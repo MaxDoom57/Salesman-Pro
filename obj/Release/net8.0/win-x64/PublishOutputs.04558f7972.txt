@@ -1,0 +1,20 @@
+E:\Interwave Solutions\Bridge App\publish_v5\publish_final\publish_v3\web.config
+E:\Interwave Solutions\Bridge App\publish_v5\publish_final\web.config
+E:\Interwave Solutions\Bridge App\publish_v5\publish_v3\web.config
+E:\Interwave Solutions\Bridge App\publish_v5\publish_v4\web.config
+E:\Interwave Solutions\Bridge App\publish_v5\appsettings.Development.json
+E:\Interwave Solutions\Bridge App\publish_v5\appsettings.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_final\appsettings.Development.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_final\appsettings.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_final\Bridge App.staticwebassets.endpoints.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_final\publish_v3\appsettings.Development.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_final\publish_v3\appsettings.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_final\publish_v3\Bridge App.staticwebassets.endpoints.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_v3\appsettings.Development.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_v3\appsettings.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_v3\Bridge App.staticwebassets.endpoints.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_v4\appsettings.Development.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_v4\appsettings.json
+E:\Interwave Solutions\Bridge App\publish_v5\publish_v4\Bridge App.staticwebassets.endpoints.json
+E:\Interwave Solutions\Bridge App\publish_v5\Bridge App.pdb
+E:\Interwave Solutions\Bridge App\publish_v5\Bridge App.exe

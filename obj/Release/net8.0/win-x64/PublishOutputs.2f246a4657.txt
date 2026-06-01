@@ -1,0 +1,8 @@
+E:\Interwave Solutions\Bridge App\publish_final\publish_v3\web.config
+E:\Interwave Solutions\Bridge App\publish_final\appsettings.Development.json
+E:\Interwave Solutions\Bridge App\publish_final\appsettings.json
+E:\Interwave Solutions\Bridge App\publish_final\publish_v3\appsettings.Development.json
+E:\Interwave Solutions\Bridge App\publish_final\publish_v3\appsettings.json
+E:\Interwave Solutions\Bridge App\publish_final\publish_v3\Bridge App.staticwebassets.endpoints.json
+E:\Interwave Solutions\Bridge App\publish_final\Bridge App.pdb
+E:\Interwave Solutions\Bridge App\publish_final\Bridge App.exe
