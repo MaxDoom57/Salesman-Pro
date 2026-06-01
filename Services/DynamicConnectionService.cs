@@ -1,7 +1,6 @@
 using Bridge_App.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -33,14 +32,9 @@ namespace Bridge_App.Services
             string server = companyProject.dbServer ?? throw new Exception("DbServer missing in configuration.");
             string db = companyProject.dbName ?? throw new Exception("DbName missing in configuration.");
 
-            // Decode encoded dbUser and dbPassword using Base64
-            string? user = !string.IsNullOrWhiteSpace(companyProject.dbUser)
-                ? Encoding.UTF8.GetString(Convert.FromBase64String(companyProject.dbUser))
-                : companyProject.dbUser;
-
-            string? pass = !string.IsNullOrWhiteSpace(companyProject.dbPassword)
-                ? Encoding.UTF8.GetString(Convert.FromBase64String(companyProject.dbPassword))
-                : companyProject.dbPassword;
+            // Credentials are stored as plain text in the DB — use them directly.
+            string? user = companyProject.dbUser;
+            string? pass = companyProject.dbPassword;
 
             // ===== SANITIZE SERVER NAME =====
             // Replace double backslashes with single backslash
