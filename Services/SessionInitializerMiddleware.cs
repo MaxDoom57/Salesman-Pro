@@ -7,14 +7,21 @@ using Microsoft.AspNetCore.Http;
 public class SessionInitializerMiddleware
 {
     private readonly RequestDelegate _next;
+    private readonly ILogger<SessionInitializerMiddleware> _logger;
 
-    public SessionInitializerMiddleware(RequestDelegate next)
+    public SessionInitializerMiddleware(RequestDelegate next, ILogger<SessionInitializerMiddleware> logger)
     {
         _next = next;
+        _logger = logger;
     }
 
     public async Task InvokeAsync(HttpContext context, IDynamicConnectionService connectionService)
     {
+        var method = context.Request.Method;
+        var path   = context.Request.Path;
+
+        _logger.LogInformation("[Request] {Method} {Path}", method, path);
+
         if (context.Request.Headers.TryGetValue("x-api-key", out var encodedKey))
         {
             try
@@ -49,13 +56,28 @@ public class SessionInitializerMiddleware
                             ConnectionString = connectionString,
                             CreatedAt = DateTime.UtcNow
                         };
+
+                        _logger.LogInformation(
+                            "[Session] Initialized | Method={Method} | Path={Path} | UserId={UserId} | CompanyKey={CompanyKey} | ProjectKey={ProjectKey} | ConnectionString={ConnectionString}",
+                            method,
+                            path,
+                            userId,
+                            companyKey,
+                            projectKey,
+                            connectionString
+                        );
                     }
                 }
             }
             catch (Exception ex)
             {
+                _logger.LogWarning("[Session] Failed to initialize session for {Method} {Path} — {Error}", method, path, ex.Message);
                 // Silently skip — let ApiKeyAuthAttribute handle errors if invalid
             }
+        }
+        else
+        {
+            _logger.LogWarning("[Session] No x-api-key header found | Method={Method} | Path={Path}", method, path);
         }
 
         await _next(context); // ALWAYS continue
