@@ -24,10 +24,10 @@ namespace Bridge_App.Models
             [Column("TP1")] public string? phoneNumber1 { get; set; }
             [Column("TP2")] public string? phoneNumber2 { get; set; }
             [Column("EMail")] public string? eMail { get; set; }
-            [Column("EntUsrKy")] public int enteredUserKey { get; set; }
+            [Column("EntUsrKy")] public int? enteredUserKey { get; set; }
             [Column("AccTyp")] public string? accountType { get; set; }
             [Column("AdrTyp")] public string? AdrTyp { get; set; }
-            [Column("AccKy")] public int accountKey { get; set; }
+            [Column("AccKy")] public int? accountKey { get; set; }
             [Column("SlsRepKy")] public int? SlsRepKy { get; set; }
         }
     }

@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Interwave Solutions\\Bridge App\\",
+  "WorkspaceRootPath": "E:\\Programming\\ASP\\Salesman Pro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|e:\\interwave solutions\\bridge app\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|solutionrelative:dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|e:\\interwave solutions\\bridge app\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|solutionrelative:controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|e:\\interwave solutions\\bridge app\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|e:\\programming\\asp\\salesman pro\\controllers\\storescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|solutionrelative:controllers\\storescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +14,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InvoiceController.cs",
-              "DocumentMoniker": "E:\\Interwave Solutions\\Bridge App\\Controllers\\InvoiceController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InvoiceController.cs",
-              "ToolTip": "E:\\Interwave Solutions\\Bridge App\\Controllers\\InvoiceController.cs",
-              "RelativeToolTip": "Controllers\\InvoiceController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDMAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T12:48:35.395Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "E:\\Interwave Solutions\\Bridge App\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "E:\\Interwave Solutions\\Bridge App\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDoAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T04:08:24.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InvoiceDTO.cs",
-              "DocumentMoniker": "E:\\Interwave Solutions\\Bridge App\\DTOs\\InvoiceDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\InvoiceDTO.cs",
-              "ToolTip": "E:\\Interwave Solutions\\Bridge App\\DTOs\\InvoiceDTO.cs",
-              "RelativeToolTip": "DTOs\\InvoiceDTO.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCsAAAA5AAAAAAAAAA==",
+              "Title": "StoresController.cs",
+              "DocumentMoniker": "E:\\Programming\\ASP\\Salesman Pro\\Controllers\\StoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StoresController.cs",
+              "ToolTip": "E:\\Programming\\ASP\\Salesman Pro\\Controllers\\StoresController.cs",
+              "RelativeToolTip": "Controllers\\StoresController.cs",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAhwEcBAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T12:51:19.785Z",
+              "WhenOpened": "2026-06-02T08:18:32.605Z",
               "EditorCaption": ""
             }
           ]

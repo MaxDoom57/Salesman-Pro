@@ -435,6 +435,18 @@
         }
       }
     },
+    "/api/Stores/forallusers": {
+      "get": {
+        "tags": [
+          "Stores"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Stores/{addressKey}": {
       "get": {
         "tags": [
@@ -1033,6 +1045,10 @@
             "format": "int32"
           },
           "quantity": {
+            "type": "number",
+            "format": "double"
+          },
+          "deliveryQuantity": {
             "type": "number",
             "format": "double"
           },
