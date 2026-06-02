@@ -353,6 +353,33 @@ namespace Bridge_App.Controllers
             }
         }
 
+        // GET: api/Stores/forallusers
+        [HttpGet("forallusers")]
+        public async Task<IActionResult> GetAllLocationsForAllUsers()
+        {
+            try
+            {
+                var dynamicContext = CreateDynamicContext();
+                if (dynamicContext == null)
+                    return StatusCode(500, new { message = "Database context is null" });
+
+                var stores = await dynamicContext.ViewStores
+                    .Where(s => s.fInAct == false && s.AdrTyp == "CUS")
+                    .ToListAsync();
+
+                return Ok(stores);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    message = "Failed to fetch stores",
+                    error = ex.Message,
+                    innerError = ex.InnerException?.Message
+                });
+            }
+        }
+
         // GET: api/Stores/{addressKey}
         [HttpGet("{addressKey}")]
         public async Task<IActionResult> GetLocationByKey(int addressKey)

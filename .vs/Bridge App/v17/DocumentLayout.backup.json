@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Interwave Solutions\\Bridge App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|e:\\interwave solutions\\bridge app\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|e:\\interwave solutions\\bridge app\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|solutionrelative:dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|e:\\interwave solutions\\bridge app\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|solutionrelative:controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|e:\\interwave solutions\\bridge app\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|solutionrelative:dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|e:\\interwave solutions\\bridge app\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7E132FA-F888-4B0F-97C2-71FA96E7D3B7}|Bridge App.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Controllers\\InvoiceController.cs",
               "ToolTip": "E:\\Interwave Solutions\\Bridge App\\Controllers\\InvoiceController.cs",
               "RelativeToolTip": "Controllers\\InvoiceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDMAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T12:48:35.395Z",
               "IsPinned": true,
@@ -40,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "E:\\Interwave Solutions\\Bridge App\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
@@ -53,15 +53,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "InvoiceDTO.cs",
               "DocumentMoniker": "E:\\Interwave Solutions\\Bridge App\\DTOs\\InvoiceDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\InvoiceDTO.cs",
               "ToolTip": "E:\\Interwave Solutions\\Bridge App\\DTOs\\InvoiceDTO.cs",
               "RelativeToolTip": "DTOs\\InvoiceDTO.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA7wCsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T12:51:19.785Z"
+              "WhenOpened": "2026-03-27T12:51:19.785Z",
+              "EditorCaption": ""
             }
           ]
         }
